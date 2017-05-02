@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+
+<div class="content" style="width: 550px">
+    <canvas id="graph"></canvas>
+</div>
+
+
+<div id="app">
+    <input type="range" v-model="jan" v-on:change="onChange">
+    <input type="range" v-model="feb" v-on:change="onChange">
+    <input type="range" v-model="mar" v-on:change="onChange">
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+<script src="https://unpkg.com/vue@2.3.0"></script>
+<script src="app.js"></script>
+</body>
+</html>
